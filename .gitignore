@@ -1,16 +1,6 @@
-# # Ignore everything:
-# !AngularBasic/*
-# !CourseProject/*
+AngularBasic/e2e
+AngularBasic/node_modeules
 
-# # Except for the themes directories:
-# !AngularBasic/src/
-# !CourseProject/src/
+CourseProject/e2e
+CourseProject/node_modeules
 
-
-!AngularBasic/
-AngularBasic/*
-!AngularBasic/src/
-
-!CourseProject/
-CourseProject/*
-!CourseProject/src/
