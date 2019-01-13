@@ -1,0 +1,18 @@
+<input class="form-control" [(ngModel)]="serverName" >
+<button (click)="onCreateServer()" class="btn btn-primary" [disabled]="!allowNewServer">
+  AddServer  
+</button>
+
+
+<p *ngIf="serverName"> server was created {{serverName}}</p>
+<p *ngIf="!serverName">no server created</p>
+
+<app-server *ngFor="let server of servers">server was created {{server}}</app-server>
+<!-- <p> {{serverCreationStatus}}</p> -->
+
+<!-- [] denotes property binding -->
+<!-- () denotes event binding -->
+<!-- [()] denotes event binding -->
+<hr>
+
+<!-- <app-server></app-server> -->
